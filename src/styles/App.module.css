@@ -1,0 +1,21 @@
+.app {
+  font-family: Arial, sans-serif;
+
+  padding-left: 15%;
+  padding-right: 15%;
+  max-width: 1440px;
+}
+
+@media (max-width: 1074px) {
+  .app {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
